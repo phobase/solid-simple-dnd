@@ -2,7 +2,7 @@
 
 [![main](https://github.com/phobase/solid-simple-dnd/actions/workflows/main.yml/badge.svg)](https://github.com/phobase/solid-simple-dnd/actions/workflows/main.yml)
 
-[Storybook examples](https://6180e0292697cd003a1397a8-nladkbkhzc.chromatic.com/)
+[Storybook examples](https://6180e0292697cd003a1397a8-nladkbkhzc.chromatic.com/?path=/story/draggable-grid--default)
 
 The library is to provide simple drag and drop functionality for solid-js.
 
