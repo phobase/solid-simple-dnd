@@ -1,0 +1,10 @@
+{
+  "presets": [
+    "@babel/env",
+    "@babel/typescript",
+    "solid"
+  ],
+  "plugins":  [
+    "@babel/plugin-transform-runtime"
+  ]
+}

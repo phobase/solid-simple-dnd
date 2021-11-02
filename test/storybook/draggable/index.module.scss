@@ -1,0 +1,35 @@
+.draggable {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 50px;
+  width: 100px;
+  background-color: black;
+  box-shadow: var(--box-shadow);
+  transition: box-shadow 300ms ease;
+}
+
+.center {
+  margin:  auto;
+}
+
+.grab {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.handle {
+  background-color: rgba(255, 255, 255, 0.5);
+  width: 10px;
+  height: 20px
+}
+
+.dragging {
+  --box-shadow: -1px 0 15px 0 rgba(34, 33, 81, 0.01), 0px 15px 15px 0 rgba(34, 33, 81, 0.25);
+
+  &:focus-visible {
+    --box-shadow: 0 0px 10px 2px #4c9ffe;
+  }
+}
+

@@ -1,0 +1,29 @@
+.wrapper {
+  height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  display: flex;
+  position: relative;
+  font-family: -apple-system, BlinkMacSystemFont, San Francisco, Roboto, Segoe UI, Helvetica, Helvetica Neue, sans-serif;
+  overflow: auto;
+}
+
+.scrollWrapper {
+  height: 150vh;
+  width: 150vw;
+}
+
+.grid {
+  background-image: repeating-linear-gradient(0deg, transparent, transparent calc(30px - 1px), #ddd calc(30px - 1px), #ddd 30px ),
+                    repeating-linear-gradient(-90deg, transparent, transparent calc(30px - 1px), #ddd calc(30px - 1px), #ddd 30px );
+  background-size: 30px 30px;
+  z-index: 1;
+}
+
+.target {
+  position: absolute;
+  bottom: 30px;
+  right: 30px;
+  height: 50px;
+  width: 100px;
+}
