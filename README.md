@@ -1,5 +1,7 @@
 # Solid simple dnd
 
+[![main](https://github.com/phobase/solid-simple-dnd/actions/workflows/main.yml/badge.svg)](https://github.com/phobase/solid-simple-dnd/actions/workflows/main.yml)
+
 The library is to provide simple drag and drop functionality for solid-js.
 
 It calculates dragging ref's position and translate based on DOM interaction. Solid-js reactivity is doing the work to keep the DOM updated.
